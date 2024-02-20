@@ -1,0 +1,59 @@
+.fotos{
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    padding: 10px 15px;
+    border: 8px double green;
+    outline: #fff 3px solid;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    background-color: rgb(196, 200, 204);
+}
+
+.bot, .jogador{
+    margin: 0px 10vw;
+}
+
+.bot h4, .jogador h4{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.vs{
+    font-size: 2vw;
+    font-weight: bold;
+    color: red;
+}
+
+select{
+    font-size: 1.5vw;
+    border-radius: 10px;
+    border: none;
+    padding: 2px 5px;
+}
+
+
+.formjkp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+    background-color: rgba(57, 240, 66, 0.479);
+    border: 3px solid black;
+    border-radius: 15px;
+    outline: solid 1px #d1d1d1;
+    padding: 3vw 1.2vw;
+}
+
+.jogador img{
+    transform: rotate(90deg);
+}
+
+.bot img{
+    transform: rotate(-90deg);
+}
